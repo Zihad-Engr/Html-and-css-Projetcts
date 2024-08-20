@@ -1,0 +1,78 @@
+/* ===================================================
+                    Common Css
+================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+/* img{
+    width:100%;
+} */
+
+body{
+    width:100vw;
+}
+body,html{
+    font-family: "Vollkorn", serif;
+    /* font-family: "Playfair Display", serif; */
+}
+
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+
+.d-flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ===================================================
+                    Header Css Start
+================================================== */
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../img/img1.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+}
+
+
+header .Logo{
+    padding:3rem 0rem;
+}
+
+.navbar{
+    
+}
+.navbar ul li{
+    margin-left:1rem;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    color:#fff;
+}
+
+/* ===================================================
+                    Header Css End
+================================================== */
+
+
+
